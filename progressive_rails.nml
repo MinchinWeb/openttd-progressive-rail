@@ -1,0 +1,58 @@
+//
+//	Progressive Rail Set
+//	Copyright 2012 by William Minchin
+//	Version 1, 2012-11-02
+//
+
+grf {
+	grfid:		"\57\6D\03\01"
+	name:		string(STR_GRF_NAME);
+	desc:		string(STR_GRF_DESCRIPTION);
+	version:	1
+	min_compatible_version:		1
+}
+
+//	only built in rail types
+railtypetable {
+	RAIL,
+	ELRL,
+	MONO,
+	MGLV
+}
+
+item (FEAT_RAILTYPES, normal_rail, 0x00) {
+	property {
+		compatile_railtype_list:	["RAIL", "ELRL", "MONO"];
+		powered_railtype_list:		["RAIL", "ELRL", "MONO"];
+		speed_limit:				100 mph;
+		alternative_railtype_list:	["RAIL"];
+	}
+}
+
+item (FEAT_RAILTYPES, electric_rail, 0x01) {
+	property {
+		compatile_railtype_list:	["RAIL", "ELRL", "MONO"];
+		powered_railtype_list:		["ELRL", "MONO"];
+		speed_limit:				165 mph;
+		alternative_railtype_list:	["ELRL"];
+	}
+}
+
+item (FEAT_RAILTYPES, monorail, 0x02) {
+	property {
+		compatile_railtype_list:	["RAIL", "ELRL", "MONO", "MGLV"];
+		powered_railtype_list:		["MONO", "MGLV"];
+		speed_limit:				210 mph;
+		alternative_railtype_list:	["MONO"];
+	}
+}
+
+item (FEAT_RAILTYPES, normal_rail, 0x03) {
+	property {
+		compatile_railtype_list:	["MONO", "MGLV"];
+		powered_railtype_list:		["MGLV"];
+		speed_limit:				0; // no speed limit
+		alternative_railtype_list:	["MGLV"];
+		railtype_flags:             bitmask(RAILTYPE_FLAG_NO_LEVEL_CROSSING); // High speed tracks should not have level crossings
+	}
+}
