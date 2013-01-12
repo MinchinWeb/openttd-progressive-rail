@@ -1,7 +1,7 @@
 ﻿Progressive Rail Set README
 ===============================================================================
-v.1, 2012-11-03  
-Copyright © 2012 by W. Minchin. For more info, please visit
+v.2, 2013-01-12  
+Copyright © 2012-13 by W. Minchin. For more info, please visit
 	<http://minchin.ca/openttd-progressive-rail/>
 	
 About Progressive Rail Set
@@ -23,14 +23,14 @@ If you want to use Vacuum Tube tracks, you'll use a separate NewGRF to provide
 
 Installation
 -------------------------------------------------------------------------------
-The easiest (and recommended) way to install the Set is use OpenTTD's 'Check
-    Online Content' interface. Search for "Progressive Rail Set". This also 
+The easiest (and recommended) way to install the Set is use OpenTTD's `Check
+    Online Content` interface. Search for `Progressive Rail Set`. This also 
     makes it very easy for me to provide updates.
 
-Manual installation can be accomplished by putting the "progressive_rail_x.grf"
-    file you downloaded in the  '..\OpenTTD\newgrf'  folder.
+Manual installation can be accomplished by putting the `progressive_rail_x.grf`
+    file you downloaded in the  `..\OpenTTD\newgrf`  folder.
 
-Once installed, the Set can be selected through 'NewGRF Settings' on OpenTTD's
+Once installed, the Set can be selected through `NewGRF Settings` on OpenTTD's
     main interface.
 
 Settings
