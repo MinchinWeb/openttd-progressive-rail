@@ -1,3 +1,4 @@
 ##grflangid 0x00
 STR_GRF_NAME			:Progressive Rail Set v2
 STR_GRF_DESCRIPTION		:{BLACK}Description: {SILVER}Slightly modified rail system to promote easier upgrades of large rail systems.{}{}Assuming a progression of {BLUE}Normal Rail{SILVER} -> {BLUE}Electric Rail{SILVER} -> {BLUE}Monorail{SILVER} -> {BLUE}Maglev{SILVER} -> {BLUE}Vacuum Tube{SILVER}, an engine can now run (unpowered) on the generation of rail before it and run powered on its normail rail and the next generation of rail.{}{}{BLACK}Copyright: {SILVER}{COPYRIGHT} 2012-13 by Wm Minchin{}{BLACK}Version: {SILVER}2 [2013-01-12]{}{BLACK}License: {SILVER}CC-BY-SA 3.0{}
+STR_GRF_URL				:http://minchin.ca/openttd-progressive-rail/

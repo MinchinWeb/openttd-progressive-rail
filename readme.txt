@@ -39,9 +39,11 @@ There are no settings for the Set.
 
 Version History
 -------------------------------------------------------------------------------
+Version 2 [2013-01-12]
+ : Different colours for different railtypes on the minimap
 Version 1 [2012-11-03]
- * Initial implementation
- * Supports normal rails, electrified rails, monorail, maglev and vacuum tube
+ : Initial implementation
+ : Supports normal rails, electrified rails, monorail, maglev and vacuum tube
 
 See the attached CHANGELOG.txt for full version history.
 
@@ -53,6 +55,13 @@ At this time, I think the Set is feature complete, so I am not adding any
 Known Issues
 -------------------------------------------------------------------------------
  * Vacuum Tube tracks have to be supplied by a separate NewGRF
+
+Compile It Yourself
+-------------------------------------------------------------------------------
+To compile it yourself, you'll need
+[NML](http://bundles.openttdcoop.org/nml/nightlies/LATEST/). Then run from the
+command line (after fixing the paths as needed):
+`nmlc progressive_rails.nml --grf=progressive_rails.grf`
 
 Help! It broke! (Bug Report)
 -------------------------------------------------------------------------------

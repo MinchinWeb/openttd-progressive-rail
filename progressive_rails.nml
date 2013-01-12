@@ -8,7 +8,7 @@ grf {
 	grfid:					"\57\6D\03\01";
 	name:					string(STR_GRF_NAME);
 	desc:					string(STR_GRF_DESCRIPTION);
-	url:					string("http://minchin.ca/openttd-progressive-rail/");
+	url:					string(STR_GRF_URL);
 	version:				2;
 	min_compatible_version:	1;
 }
@@ -28,7 +28,7 @@ item (FEAT_RAILTYPES, normal_rail, 0x00) {
 		powered_railtype_list:		["RAIL", "ELRL", "MONO"];
 		speed_limit:				100 mph;
 		alternative_railtype_list:	["RAIL"];
-		map_color:					22;
+		map_colour:					22;
 		
 	}
 }
@@ -39,7 +39,7 @@ item (FEAT_RAILTYPES, electric_rail, 0x01) {
 		powered_railtype_list:		["ELRL", "MONO"];
 		speed_limit:				165 mph;
 		alternative_railtype_list:	["ELRL"];
-		map_color:					65;
+		map_colour:					52;
 	}
 }
 
@@ -49,7 +49,7 @@ item (FEAT_RAILTYPES, monorail, 0x02) {
 		powered_railtype_list:		["MONO", "MGLV"];
 		speed_limit:				210 mph;
 		alternative_railtype_list:	["MONO"];
-		map_color:					20;
+		map_colour:					48;
 	}
 }
 
@@ -60,6 +60,6 @@ item (FEAT_RAILTYPES, maglev, 0x03) {
 		speed_limit:				402 mph;
 		alternative_railtype_list:	["MGLV"];
 		railtype_flags:             bitmask(RAILTYPE_FLAG_NO_LEVEL_CROSSING); // High speed tracks should not have level crossings
-		map_color:					18;
+		map_colour:					174;
 	}
 }
