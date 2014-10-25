@@ -75,7 +75,7 @@ Get OpenTTD! ......................................... <http://www.openttd.org>
 TT-Forums - all things Transport Tycoon related .... <http://www.tt-forums.net>  
 The Set's thread on TT-Forums: release announcements, bug reports, suggestions,
 and general commentary  
-......................... <http://www.tt-forums.net/viewtopic.php?f=65&t=53698>  
+......................... <http://www.tt-forums.net/viewtopic.php?f=65&t=63182>  
 The Set on GitHub: source code  
 ..................... <https://github.com/MinchinWeb/openttd-progressive-rail/>  
 To report issues:  
